@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import image1 from '../assets/Image Slide.png'
 import vid from '../assets/vid.png'
-import image3 from '../assets/Image slide.png'
+import image3 from '../assets/Image Slide.png'
 import image4 from '../assets/vid.png'
 
 const images = [
