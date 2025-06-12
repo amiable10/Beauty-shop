@@ -45,7 +45,7 @@ const ContactInfo = () => {
           </div>
         </div>
 
-        <div>
+        <div className='md:w-full w-[90%]'>
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Have a Question?</h2>
           <p className="text-gray-500 text-sm mb-4">
             <span className='text-orange-500'>Business Hours:</span> <span className='text-gray-900 font-bold'>Mon - Fri:</span> 08:00 AM To 09:00 PM <span className='text-gray-900 font-bold'>Sat:</span> 09:00 AM To 06:00 PM

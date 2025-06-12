@@ -22,9 +22,9 @@ const Nav = () => {
     <nav className=" bg-white p-4 fixed top-0 right-0 left-0 z-1">
       <div className="container mx-auto flex items-center justify-between md:justify-between">
         <div className="flex items-center">
-          <span className="text-lg font-bold text-gray-800">AMYTECH</span>
-          <img src={logo} alt="Amytech Beauty logo" width={30} className="mx-1" />
-          <span className="text-lg font-bold text-orange-500">BEAUTY</span>
+          <span className="md:text-lg text-[13px] font-bold text-gray-800">AMYTECH</span>
+          <img src={logo} alt="Amytech Beauty logo"width={15} md:width={30} className="mx-1" />
+          <span className="md:text-lg text-[13px] font-bold text-orange-500">BEAUTY</span>
         </div>
 
         <div className="hidden md:flex space-x-6">
@@ -85,12 +85,45 @@ const Nav = () => {
         </div>
       </div>
 
+      {/* media screen */}
+
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-white shadow-lg py-4`}>
         <div className="flex flex-col items-center space-y-4">
-          <a href="#" className="block text-gray-600 hover:text-orange-500 font-bold hover:bg-gray-100 w-full text-center py-2 rounded-md">Home</a>
-          <a href="#" className="block text-gray-600 hover:text-orange-500 font-bold hover:bg-gray-100 w-full text-center py-2 rounded-md">Services</a>
-          <a href="#" className="block text-gray-600 hover:text-orange-500 font-bold hover:bg-gray-100 w-full text-center py-2 rounded-md">About Us</a>
-          <a href="#" className="block text-gray-600 hover:text-orange-500 font-bold hover:bg-gray-100 w-full text-center py-2 rounded-md">Contact Us</a>
+          <Link to="/" className="block text-gray-600 hover:text-orange-500 font-bold hover:bg-gray-100 w-full text-center pr-6 py-2 rounded-md transition duration-300 ease-in-out shadow-lg hover:rounded-2xl">Home</Link>
+
+
+          <div className="relative w-full">
+          <button
+            onClick={toggleServiceDropdown}
+            className="text-gray-600 hover:text-orange-500 font-bold hover:bg-gray-100 w-full text-center transition duration-300 ease-in-out shadow-lg hover:rounded-2xl hover:cursor-pointer px-2 py-2 rounded-md flex items-center justify-center"
+          >
+            Service
+            <ChevronDown className='p-1 pt-2'/>
+          </button>
+          {isServiceDropdownOpen && (
+            <div className="absolute left-25 mt-2 w-20 ">
+              <Link
+                to="/ServicePage"
+                className="block text-orange-500 bg-gray-900 hover:text-gray-600 font-bold hover:bg-gray-100 transition duration-300 ease-in-out shadow-lg hover:rounded-2xl hover:cursor-pointer px-2 py-1 mb-2 rounded-md "
+                onClick={() => setIsServiceDropdownOpen(false)}
+              >
+                SPA
+              </Link>
+              
+              <Link
+                to="/MakeupPage"
+                className="block text-orange-500 bg-gray-900 hover:text-gray-600 font-bold hover:bg-gray-100 transition duration-300 ease-in-out shadow-lg hover:rounded-2xl hover:cursor-pointer px-2 py-1 rounded-md"
+                onClick={() => setIsServiceDropdownOpen(false)}
+              >
+                Makeup
+              </Link>
+             
+            </div>
+          )}
+        </div>
+
+          <Link to='/AboutPage' className="block text-gray-600 hover:text-orange-500 font-bold hover:bg-gray-100 w-full text-center py-2 rounded-md transition duration-300 ease-in-out shadow-lg hover:rounded-2xl">About Us</Link>
+          <Link to="/ContactPage" className="block text-gray-600 hover:text-orange-500 font-bold hover:bg-gray-100 w-full text-center py-2 rounded-md transition duration-300 ease-in-out shadow-lg hover:rounded-2xl">Contact Us</Link>
         </div>
       </div>
     </nav>
