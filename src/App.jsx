@@ -8,7 +8,7 @@ import LoginPage from './pages/LoginPage'
 import RegisterPage from './pages/RegisterPage'
 import MakeupForm from './components/MakeupForm'
 import MakeUpPage from './components/MakeUpPage'
-
+{/* <p></p> */}
 function App() {
 
   return (
