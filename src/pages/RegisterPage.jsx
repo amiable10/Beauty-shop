@@ -34,8 +34,8 @@ function RegisterPage() {
       >
         
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="relative bottom-55 z-10">
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
+        <div className="relative md:bottom-55 z-10">
+          <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4">
             We show your skin, hair, and body the care and attention they deserve.
           </h1>
           <p className="text-lg text-gray-300">

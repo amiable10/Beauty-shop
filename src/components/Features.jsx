@@ -33,7 +33,7 @@ function Features() {
         <div className="relative group overflow-hidden rounded-[8px] shadow-lg">
 
           <img src={image1} alt="Featured item 1" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
-          <div className="absolute bottom-0 left-0 right-0 p-4 xl:p-2 xl:mx-30 bg-white bg-opacity-90 text-center text-gray-800 transition-opacity duration-300">
+          <div className="absolute bottom-0 left-0 right-0 p-4 xl:p-2.5 xl:mx-30 bg-white bg-opacity-90 text-center text-gray-800 transition-opacity duration-300">
             <h2 className="text-base sm:text-lg font-bold mb-2">
               Hair Salon Haven
             </h2>
