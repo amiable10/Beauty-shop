@@ -16,7 +16,7 @@ import make14 from '../assets/makeup13.png'
 
 function App() {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto px-4 lg:px-0 sm:px-6">
         <div className='mb-10'>
             <MakeupHeader />
 

@@ -4,7 +4,7 @@ import make2 from '../assets/story2.png'
 
 const MakeUpOne = () => {
   return (
-    <div className="container mx-auto py-8">
+    <div className="container mx-auto px-4 lg:px-0 sm:px-6 py-8">
       
       <div className="mb-8">
         <h1 className="text-xl font-semibold text-gray-700">Services / Categories <span className='text-orange-500'>(Makeup)</span></h1>

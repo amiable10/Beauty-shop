@@ -15,7 +15,7 @@ function Features() {
   
 
   return (
-    <div className="container mx-auto py-8 ">
+    <div className="container mx-auto px-4 lg:px-0 sm:px-6 py-8 ">
 
       <div className=" flex flex-col md:flex-row justify-between items-center text-center md:text-left mb-12">
         <h3 className="text-4xl sm:text-5xl md:text-5xl font-bold text-black leading-tight mb-6 md:mb-0">

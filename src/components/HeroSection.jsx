@@ -71,7 +71,7 @@ function HeroSection() {
       </div>
 
       
-      <div className='container mx-auto md:flex items-center justify-center md:min-h-screen md:max-auto md:space-x-10'>
+      <div className='container mx-auto md:flex items-center justify-center md:max-auto md:space-x-10'>
           <div className='pb-8 md:pb-0'>
               <img src={image1} alt='' className='w-[635px] rounded-[8px] '/>
           </div>

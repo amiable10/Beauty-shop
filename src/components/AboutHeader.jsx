@@ -7,7 +7,7 @@ import you from '../assets/Youtube.png';
 
 const AboutHeader = () => {
   return (
-    <div className="container mx-auto mt-8 font-sans">
+    <div className="container px-4 sm:px-6 mx-auto mt-8 font-sans">
 
         <div className=" relative rounded-lg overflow-hidden shadow-2xl">
             <img

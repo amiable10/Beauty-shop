@@ -19,12 +19,12 @@ const Nav = () => {
   
 
   return (
-    <nav className=" bg-white p-4 fixed top-0 right-0 left-0 z-1">
+    <nav className=" bg-white px-4 py-4 fixed top-0 right-0 left-0 z-1">
       <div className="container mx-auto flex items-center justify-between md:justify-between">
         <div className="flex items-center">
-          <span className="md:text-lg text-[13px] font-bold text-gray-800">AMYTECH</span>
+          <span className="md:text-[16px] text-[13px] font-bold text-gray-800">AMYTECH</span>
           <img src={logo} alt="Amytech Beauty logo"width={15} md:width={30} className="mx-1" />
-          <span className="md:text-lg text-[13px] font-bold text-orange-500">BEAUTY</span>
+          <span className="md:text-[16px] text-[13px] font-bold text-orange-500">BEAUTY</span>
         </div>
 
         <div className="hidden md:flex space-x-6">
@@ -87,7 +87,7 @@ const Nav = () => {
 
       {/* media screen */}
 
-      <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-white shadow-lg py-4`}>
+      <div className={`lg:hidden ${isOpen ? 'block' : 'hidden'} bg-white shadow-lg py-4`}>
         <div className="flex flex-col items-center space-y-4">
           <Link to="/" className="block text-gray-600 hover:text-orange-500 font-bold hover:bg-gray-100 w-full text-center pr-6 py-2 rounded-md transition duration-300 ease-in-out hover:rounded-2xl">Home</Link>
 

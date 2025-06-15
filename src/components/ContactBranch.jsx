@@ -6,7 +6,7 @@ import branch2 from '../assets/branch2.png';
 
 const ContactBranch = () => {
   return (
-    <div className="container mx-auto w-full py-12 sm:px-6 md:px-0">
+    <div className="container px-4 sm:px-6 mx-auto w-full py-12 lg:px-0">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
           Come And Visit <span className="text-orange-500">Our Other Branches</span>

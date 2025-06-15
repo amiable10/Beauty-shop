@@ -19,7 +19,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative container mx-auto my-15  overflow-hidden rounded-lg shadow-xl">
+    <div className="relative container mx-auto px-4 lg:px-6 my-15  overflow-hidden rounded-lg shadow-xl">
 
       <div className=" min-h-screen">
         {images.map((image, index) => (

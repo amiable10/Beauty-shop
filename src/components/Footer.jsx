@@ -4,7 +4,7 @@ import logo from '../assets/icon.png'
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-50 py-10 md:py-16 mt-12">
+    <footer className="bg-gray-50 py-10 md:py-16 mt-12 px-4 sm:px-6 mb-">
       <div className="container mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 border-t pt-8 border-gray-200 ">
 
         <div>
@@ -64,7 +64,7 @@ const Footer = () => {
 
       </div>
 
-      <div className="container mx-auto px-4 mt-10 pt-6 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+      <div className="container mx-auto px-4 mt-10 pt-6 pb-24 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
 
         <div className="flex mb-4 md:mb-0">
             <span className="text-lg font-bold text-gray-300">AMYTECH</span>

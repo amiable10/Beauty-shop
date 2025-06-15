@@ -26,7 +26,7 @@ function BookForm() {
   };
 
   return (
-    <div className="container mx-auto bg-gray-900 flex items-center justify-center py-16 rounded-lg"
+    <div className="container mx-auto bg-gray-900 flex items-center justify-center py-16 rounded-lg mb-16 lg:mb-0"
     style={{ backgroundImage: "url('/src/assets/back.png')" }}
     >
       <div className="bg-gray-900 p-8 rounded-lg shadow-xl w-full max-w-2xl">

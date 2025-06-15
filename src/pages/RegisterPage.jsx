@@ -22,20 +22,20 @@ function RegisterPage() {
   };
 
   return (
-    <div className='container mx-auto py-8'>
+    <div className='container mx-auto py-6 '>
       <div className='mb-4'>
         <Link to='/' className="text-sm text-orange-500 font-bold">&larr; HomePage</Link>
       </div>
 
-      <div className="min-h-screen flex flex-col md:flex-row bg-gray-100 text-white p-16">
+      <div className=" flex flex-col md:flex-row bg-gray-100 text-white p-16">
       <div
-        className="relative w-full md:w-1/2 bg-cover bg-center p-8 flex flex-col justify-end"
+        className="hidden relative w-full md:w-[33%] bg-cover bg-center p-8 md:flex flex-col justify-end"
         style={{ backgroundImage: "url('/src/assets/makeup10.png')" }}
       >
         
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="relative md:bottom-55 z-10">
-          <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4">
+        <div className="relative md:bottom-30 z-10">
+          <h1 className="md:text-2xl lg:text-3xl xl:text-4xl font-bold leading-tight mb-4">
             We show your skin, hair, and body the care and attention they deserve.
           </h1>
           <p className="text-lg text-gray-300">
